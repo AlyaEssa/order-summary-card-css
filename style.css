@@ -1,0 +1,144 @@
+/* google fonts import (Outfit, sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/* Varibles */
+:root {
+  /* colors */
+
+  /* Primary */
+  --clr-Pale-blue: hsl(225, 100%, 94%);
+  --clr-Bright-blue: hsl(245, 75%, 52%);
+
+  /*  Neutral */
+  --clr-Very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-Dark-blue: hsl(223, 47%, 23%);
+
+  /* Typography */
+
+  /* font family */
+  --ff-Red-Hat-Display: "Red-Hat-Display", sans-serif;
+
+  /* font weight */
+  --fw-medim: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-Red-Hat-Display);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 1302px 247px;
+  background-color: var(--clr-Pale-blue);
+}
+
+.card-container {
+  background: #fff;
+  width: 350px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 12px auto;
+}
+.main-img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+.centr-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.order-header {
+  color: var(--clr-Dark-blue);
+  font-size: 2rem;
+  margin: 28px 10px;
+}
+.paragraph {
+  color: var(--clr-desaturated-blue);
+  font-size: 1rem;
+}
+.mid-content {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  margin: auto;
+  border-radius: 12px;
+  margin-top: 12px;
+  background: var(--clr-Very-pale-blue);
+  padding: 12px 10px;
+}
+.music-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 12px;
+}
+.price-container {
+  /* margin: 0; */
+}
+.annul-plan {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.price {
+  color: var(--clr-desaturated-blue);
+  margin-top: 0.5rem;
+}
+.change {
+  display: flex;
+  margin: auto;
+  margin: auto 91px;
+  font-size: 15px;
+  color: var(--clr-Bright-blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.change:hover {
+  color: var(--clr-desaturated-blue);
+}
+button {
+  width: 19rem;
+  padding: 12px;
+  margin-top: 21px;
+  background: var(--clr-Bright-blue);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--clr-desaturated-blue);
+}
+.cancel {
+  color: var(--clr-desaturated-blue);
+  font-size: 1rem;
+  margin: 21px;
+  cursor: pointer;
+}
+.cancel:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 313px) {
+  .card-container {
+    width: 305px;
+    margin: 12px 4px;
+  }
+  .mid-content {
+    width: 17rem;
+  }
+  .change {
+    margin: auto;
+  }
+  button {
+    width: 16rem;
+  }
+}
