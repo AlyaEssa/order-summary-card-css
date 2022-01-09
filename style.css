@@ -33,18 +33,26 @@
 
 body {
   font-family: var(--ff-Red-Hat-Display);
-  background-image: url(./images/pattern-background-desktop.svg);
+  background-image: url(pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-size: 1302px 247px;
-  background-color: var(--clr-Pale-blue);
+  background-size: contain;
+  background-color: #e0e8ff;
 }
 
 .card-container {
-  background: #fff;
-  width: 350px;
+  width: 450px;
   text-align: center;
   border-radius: 15px;
-  margin: 12px auto;
+  margin: 50px auto;
+}
+.card {
+  background: #fff;
+  width: 100%;
+   margin-top: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-img {
   width: 100%;
@@ -55,20 +63,30 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+   align-items: center;
 }
 .order-header {
   color: var(--clr-Dark-blue);
-  font-size: 2rem;
-  margin: 28px 10px;
+   font-size: 1.8rem;
+  margin: 25px 0;
+  font-weight: 1000;
 }
 .paragraph {
   color: var(--clr-desaturated-blue);
-  font-size: 1rem;
+  font-size: 18px;
+  font-weight: 300 !important;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  line-height: 1.6rem;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
 .mid-content {
   display: flex;
   align-items: center;
-  width: 20rem;
+  width: 80%;
   margin: auto;
   border-radius: 12px;
   margin-top: 12px;
@@ -94,7 +112,7 @@ body {
 .change {
   display: flex;
   margin: auto;
-  margin: auto 91px;
+    margin-left: 134px;
   font-size: 15px;
   color: var(--clr-Bright-blue);
   text-decoration: underline;
@@ -113,6 +131,7 @@ button {
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+   box-shadow: 0 8px 16px -8px darkblue;
 }
 button:hover {
   background: var(--clr-desaturated-blue);
