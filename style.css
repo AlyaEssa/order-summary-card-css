@@ -36,7 +36,7 @@ body {
   background-image: url(pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #e0e8ff;
+ background-color: var(--clr-Very-pale-blue);
 }
 
 .card-container {
