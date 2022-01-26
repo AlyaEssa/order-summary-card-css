@@ -70,13 +70,14 @@ body {
   color: var(--clr-Dark-blue);
    font-size: 1.8rem;
   margin: 25px 0;
+  margin-top: 50px;
   font-weight: 1000;
 }
 .paragraph {
   color: var(--clr-desaturated-blue);
   font-size: 18px;
   font-weight: 300 !important;
-  margin-top: 25px;
+ /* margin-top: 25px;*/
   margin-bottom: 20px;
   line-height: 1.6rem;
   width: 80%;
