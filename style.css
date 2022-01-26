@@ -29,7 +29,8 @@ body {
   width: 80%;
 }
 .card {
-  max-width: 976px;
+ /* max-width: 976px;*/
+  max-width: 1900px;
 
   display: flex;
   margin: 0 auto;
