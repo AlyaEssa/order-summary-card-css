@@ -89,9 +89,7 @@ body {
   display: flex;
   align-items: center;
   width: 80%;
-  margin: auto;
   border-radius: 12px;
-  margin-top: 12px;
   background: var(--clr-Very-pale-blue);
   padding: 29px 16px
 }
