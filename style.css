@@ -33,7 +33,7 @@
 
 body {
   font-family: var(--ff-Red-Hat-Display);
-  background-image: url(pattern-background-desktop.svg);
+  background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
  background-color: var(--clr-Very-pale-blue);
